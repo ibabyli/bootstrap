@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- 屏幕和设备的屏幕保持一致，初始缩放为1:1，禁止用户缩放-->
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=o">
+	<title>引入Bootstrap环境2</title>
+
+	<!-- 引入外部的css文件-->
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+	<!-- 引入js文件 -->
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/js/bootstrap.min.js">
+</head>
+<body style="background: gray;">
+	<div class="container" style="background: #ffffff;">
+		宽度为1170px
+	</div>
+	<div class="container-fluid" style="background: #ffffff;">
+		宽度为100%
+	</div>
+
+	<div class="container-fluid" style="background: #ffffff;">
+		<h1 class="page-header text-center">产品<big>展示</big> 像素为36px 并且下面有一条线</h1>
+		<h2 class="page-header text-right">新闻<small>内容</small> 像素为30px 并且下面有一条线</h2>
+
+		<p>文字大小14px。。。
+			<strong>是否你也会偶尔想起我，还是你在过着与我无关的生活，我的年少有你，你的青春有我！</strong>
+			<em>是否你也会偶尔想起我，还是你在过着与我无关的生活，我的年少有你，你的青春有我！</em>
+			<del>是否你也会偶尔想起我，还是你在过着与我无关的生活，我的年少有你，你的青春有我！</del>
+			是否你也会偶尔想起我，还是你在过着与我无关的生活，我的年少有你，你的青春有我！
+			是否你也会偶尔想起我，还是你在过着与我无关的生活，我的年少有你，你的青春有我！
+		</p>
+
+		<h3 class="page-header">英文大小写</h3>
+		<p class="text-uppercase">全部变为大写：abcDEF</p>
+		<p class="text-lowercase">全部变为小写：abcDEF</p>
+		<p class="text-capitalize">首字母大写：abcDEF</p>
+
+		<h4 class="page-header">列表</h4>
+		<ul class="list-unstyled list-inline">
+			<li>html</li>
+			<li>css</li>
+			<li>javascript</li>
+			<li>mysql</li>
+		</ul>
+
+		<h5 class="page-header">自定义列表</h5>
+		<dl class="dl-horizontal">
+			<dt>标题</dt>
+			<dd>标题解释</dd>
+		</dl>
+
+		<h1 class="page-header">表格</h1>
+		<div class="tale-responsive">
+			<table class="table table-bordered table-hover table-striped table-condensed">
+				<tr class="active">
+					<td>编号</td>
+					<td>名称</td>
+					<td>状态</td>
+				</tr>
+				<tr class="success">
+					<td>0001</td>
+					<td>jsp程序设计</td>
+					<td>已发货</td>
+				</tr>
+				<tr class="info">
+					<td>0002</td>
+					<td>华硕电脑</td>
+					<td>已退货</td>
+				</tr>
+				<tr class="danger">
+					<td>0003</td>
+					<td>三星手机</td> 
+					<td>已爆炸</td>
+				</tr>
+				<tr class="warning">
+					<td>0003</td>
+					<td>三星手机</td> 
+					<td>已爆炸</td>
+				</tr>
+			</table>
+		</div>
+
+	</div>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=o">
+	<title>引入Bootstrap环境2</title>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/js/bootstrap.min.js"><link rel="stylesheet" href="bootstrap-3.3.7-dist/js/jquery.min.js">
+</head>
+<body style="background: gray;">
+	<div class="container-fluid" style="background: #ffffff;">
+		<h2 class="page-header">下拉列表</h2>
+		<div class="dropdown">
+			<button class="btn btn-default" data-toggle="dropdown">
+				登录<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">QQ登录</a></li>
+				<li><a href="#">微信登录</a></li>
+				<li><a href="#">邮箱登录</a></li>
+				<li><a href="#">手机登录</a></li>
+				<li><a href="#">微博登录</a></li>
+			</ul>
+		</div>
+
+		<!-- 应该是存在浏览器兼容问题，表示测试不出来 -->
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Dropdown
+				<span class="caret"></span>
+			</button>
+		<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+			<li><a href="#">Action</a></li>
+			<li><a href="#">Another action</a></li>
+			<li><a href="#">Something else here</a></li>
+			<li role="separator" class="divider"></li>
+			<li><a href="#">Separated link</a></li>
+		</ul>
+		</div>
+	</div>
+</body>
+</html>

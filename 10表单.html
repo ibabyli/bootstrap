@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=o">
+	<title>引入Bootstrap环境2</title>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/js/bootstrap.min.js">
+	<style type="text/css">
+		
+	</style>
+</head>
+<body style="background: gray;">
+	<div class="container-fluid" style="background: #ffffff;">
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label for="email">邮箱
+					<input type="email" name="cemail" id="email" class="form-control">
+				</label>
+			</div>
+			<div class="form-group">
+				<label for="pwd">密码
+					<input type="password" name="pwd" id="pwd " class="form-control">
+				</label>
+			</div>
+			<div class="form-group">
+				<label class="checkbox-inline">
+					<input type="checkbox" name="hobby">唱歌
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="hobby">旅游
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" name="hobby" disabled>睡觉
+				</label>
+				<label class="checkbox-inline disabled">
+					<input type="checkbox" name="hobby" disabled>学习
+				</label>
+			</div>
+
+			<h3 class="page-header text-center">单选框</h3>
+			<label class="radio-inline"><input type="radio" name="sex" value="男">男</label>
+			<label class="radio-inline"><input type="radio" name="sex" value="女">女</label>
+			<label class="radio-inline disabled"><input type="radio" name="sex" value="gay" disabled="">不男不女</label>
+
+			<!-- 输入框组 -->
+			<div class="form-group">
+				<div class="input-group">
+					<span class="input-group-addon">搜索</span>
+					<input type="search" name="sc" id="sc" class="form-control">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="input-group">
+					<input type="search" name="sear" id="sear" class="form-control">
+					<div class="input-group-addon">查询内容</div>
+				</div>
+			</div>
+
+			<!-- 用户名和密码 -->
+			<div class="form-group">
+				<div class="input-group">
+					<div class="glyphicon glyphicon-user input-group-addon"></div>
+					<input type="text" name="username" class="form-control" />
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="input-group">
+					<div class="glyphicon glyphicon-lock input-group-addon"></div>
+					<input type="password" name="pwd" class="form-control" />
+				</div>
+			</div>
+
+
+			<span class="glyphicon glyphicon-user"></span>
+			<span class="glyphicon glyphicon-lock"></span>
+		</form>
+	</div>
+
+</body>
+</html>

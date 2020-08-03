@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=o">
+	<title>引入Bootstrap环境2</title>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/js/bootstrap.min.js">
+	<style type="text/css">
+		.top {
+			width: 500px;
+			border: 1px solid blue;
+			margin: 10px auto;
+			/*清除浮动*/
+			/*overflow: hidden;*/
+		}
+		.pull-left {
+			width:200px;
+			height:200px;
+			background:red;
+		}
+		.pull-right {
+			width:200px;
+			height:200px;
+			background:blue;
+		}
+	</style>
+</head>
+<body style="background: gray;">
+	<div class="container-fluid" style="background: #ffffff;">
+		<div class="top clearfix">
+			<div class="pull-left">我在左边</div>
+			<div class="pull-right">我在右边</div>
+		</div>
+	</div>
+</body>
+</html>
